@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/PractHardware/Proyecto/divisor_isim_beh.exe" -prj "F:/PractHardware/Proyecto/divisor_beh.prj" "work.divisor" 

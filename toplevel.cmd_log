@@ -1,0 +1,347 @@
+xst -intstyle ise -ifn "C:/Xilinx/P2_PicoBlaze/Proyectos/P2_PicoBlaze_HelloWorld/toplevel.xst" -ofn "C:/Xilinx/P2_PicoBlaze/Proyectos/P2_PicoBlaze_HelloWorld/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/P2_PicoBlaze/Proyectos/P2ab_Picoblaze_Helloworld_RAM_Interrupcion/toplevel.xst" -ofn "C:/Xilinx/P2_PicoBlaze/Proyectos/P2ab_Picoblaze_Helloworld_RAM_Interrupcion/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/P2_v3_PicoBlaze/Proyectos/P2c_Picoblaze_Helloworld_RAM_Interrupcion_FLIP/toplevel.xst" -ofn "C:/Xilinx/P2_v3_PicoBlaze/Proyectos/P2c_Picoblaze_Helloworld_RAM_Interrupcion_FLIP/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/AHC/Proyecto/toplevel.xst" -ofn "C:/AHC/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/AHC/Proyecto/toplevel.xst" -ofn "C:/AHC/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/AHC/Proyecto/toplevel.xst" -ofn "C:/AHC/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/AHC/Proyecto/toplevel.xst" -ofn "C:/AHC/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+vhdtdtfi -lib work zero_flag_logic.vhd -lib work T_state_and_Reset.vhd -lib work stack_ram.vhd -lib work stack_counter.vhd -lib work shift_rotate.vhd -lib work register_bank.vhd -lib work register_and_flag_enable.vhd -lib work program_counter.vhd -lib work logical_bus_processing.vhd -lib work IO_strobe_logic.vhd -lib work interrupt_logic.vhd -lib work interrupt_capture.vhd -lib work flip.vhd -lib work complemento.vhd -lib work carry_flag_logic.vhd -lib work arithmatic.vhd -lib work programa_helloworld_int_FLIP.vhd -lib work picoblaze.vhd -lib work divisor.vhd -lib work toplevel_helloworld_RAM_Int.vhd -prj Proyecto -o toplevel.spl -module toplevel -template F:/Programas/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "F:/PractHardware/Proyecto/toplevel.xst" -ofn "F:/PractHardware/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
+xst -intstyle ise -ifn "C:/Proyecto/toplevel.xst" -ofn "C:/Proyecto/toplevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze_s3estarter.ucf -p xc3s500e-fg320-4 toplevel.ngc toplevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o toplevel_map.ncd toplevel.ngd toplevel.pcf 
+par -w -intstyle ise -ol high -t 1 toplevel_map.ncd toplevel.ncd toplevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf PicoBlaze_s3estarter.ucf 
+bitgen -intstyle ise -f toplevel.ut toplevel.ncd 
